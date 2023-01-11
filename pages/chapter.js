@@ -4,7 +4,7 @@ const Chapter = () => {
     return (
         <Hero
          title="Chapter" 
-         subtitle="4.1"
+         subtitle="4.2"
          />
     )
 }
