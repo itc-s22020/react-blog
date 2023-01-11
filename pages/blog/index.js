@@ -1,12 +1,15 @@
+import Container from "@/components/container"
 import Hero from "@/components/hero"
 //import Hero from "../components/hero"
 
 const Blog = () => {
     return (
-        <Hero
-            title="blog"
-            subtitle="Recent Posts"
-        />
+        <Container>
+            <Hero
+                title="blog"
+                subtitle="Recent Posts"
+            />
+        </Container>
     )
 }
 
