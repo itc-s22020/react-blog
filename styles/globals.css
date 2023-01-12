@@ -43,6 +43,20 @@ font-size: var(--heading2);
 h3 {
 font-size: var(--heading3);
 }
+/* images */
+.image {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 50%;
+  }
+}
+
+span > img {
+  transition: 0.2s;
+}
 
 /* リセット */
 body, h1, h2, h3, p, figure, ul {
