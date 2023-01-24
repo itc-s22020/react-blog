@@ -4,7 +4,7 @@ import Hero from '../components/hero'
 
 const Home = () => {
      return (  
-          <Container>  
+          <Container>
                <Hero
                     title="CUBE" 
                     subtitle="アウトプットしていくサイト"
