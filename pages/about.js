@@ -1,4 +1,5 @@
 //import Hero from "@/components/hero"
+import Head from 'next/head'
 import Container from "@/components/container"
 import Hero from "../components/hero"
 import PostBody from "../components/post-body"
@@ -10,6 +11,9 @@ import eyecatch from '../images/about.jpg'
 const About = () => {
     return (
         <Container>
+            <Head>
+                <title>about</title>                
+            </Head>
             <Hero title="About" subtitle="About development" />
 
             <figure>
