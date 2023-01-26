@@ -6,7 +6,7 @@ import Hero from "@/components/hero"
 const Blog = () => {
     return (
         <Container>
-            <Meta pagetitle="blog"/>
+            <Meta pagetitle="blog" pageDesc="ブログの記事一覧"/>
             <Hero
                 title="blog"
                 subtitle="Recent Posts"
