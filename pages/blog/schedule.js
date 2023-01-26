@@ -13,3 +13,5 @@ const getStaticProps = async () => {
         props: {},
     }
 }
+
+export default {Schedule, getStaticProps}
