@@ -11,6 +11,7 @@ import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
 
 export default function App({ Component, pageProps }) {
+
   const router = useRouter()
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -21,7 +22,6 @@ export default function App({ Component, pageProps }) {
       router.events.off('routeChangeComplete', handleRouteChange)
     }
   }, [router.events])
-
   return (
     <>
       <Script
@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Data());
+            gtag('js', new Date());
 
             gtag('config', '${gtag.GA_MEASUREMENT_ID}');
           `,
