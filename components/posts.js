@@ -15,11 +15,11 @@ export default function Posts({ posts }) {
                                     alt=""
                                     style={{
                                         width: '100%',
-                                        height: 'auto'
+                                        height: 'auto',
+                                        objectFit: 'cover'
                                     }}
                                     width={eyecatch.width}
                                     height={eyecatch.height}
-                                    objectFit="cover"
                                     sizes="(min-width: 1152px) 576px, 50vw"
                                     placeholder="blur"
                                     blurDataURL={eyecatch.blurDataURL}
